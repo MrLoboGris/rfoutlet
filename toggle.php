@@ -5,24 +5,24 @@ header('Cache-Control: no-cache, must-revalidate');
 // Edit these codes for each outlet
 $codes = array(
     "1" => array(
-        "on" => 349491,
-        "off" => 349500
+        "on" => 1332531,
+        "off" => 1332540
     ),
     "2" => array(
-        "on" => 349635,
-        "off" => 349644
+        "on" => 1332675,
+        "off" => 1332684
     ),
     "3" => array(
-        "on" => 349955,
-        "off" => 349964
+        "on" => 1332995,
+        "off" => 1333004
     ),
     "4" => array(
-        "on" => 351491,
-        "off" => 351500
+        "on" => 1334531,
+        "off" => 1334540
     ),
     "5" => array(
-        "on" => 357635,
-        "off" => 357644
+        "on" => 1340675,
+        "off" => 1340684
     ),
 );
 
@@ -35,7 +35,7 @@ $codeSendPath = './codesend';
 $codeSendPIN = "0";
 
 // Pulse length depends on the RF outlets you are using. Use RFSniffer to see what pulse length your device uses.
-$codeSendPulseLength = "189";
+$codeSendPulseLength = "185";
 
 if (!file_exists($codeSendPath)) {
     error_log("$codeSendPath is missing, please edit the script", 0);
